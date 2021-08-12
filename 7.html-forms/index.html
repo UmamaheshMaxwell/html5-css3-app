@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>HTML Form</title>
+</head>
+<body>
+    <form>
+       FirstName:  <input type="text" name="firtName" required> <br><br>
+       LastName:  <input type="text" name="lastname" value="Mahesh"><br><br>
+       password: <input type="password" value="secret@123"><br><br>
+       Comments: <textarea rows="6" cols="50"> Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tenetur, eum fugiat expedita, blanditiis hic saepe, facere quo laudantium in neque illo dolor? Distinctio perferendis eligendi quo sed tenetur minus deleniti omnis possimus ratione eveniet incidunt itaque alias id, modi, perspiciatis aliquid beatae soluta ex neque autem! Nisi minima ex consectetur.</textarea> <br><br>
+       Subject : <input type="radio" name="subject"> Maths
+                 <input type="radio" name="subject"> Physics
+                 <input type="radio" name="subject"> Biology
+       <br><br>
+       Role : <input type="checkbox" name="admin"> Admin 
+              <input type="checkbox" name="hod"> HOD
+              <input type="checkbox" name="lecturer"> Lecturer
+       <br><br>
+       Select a Country : 
+        <select>
+            <option value="1">India</option>
+            <option value="2">Japan</option>
+            <option value="3">Australia</option>
+        </select>
+        <br><br>
+        Select a Planets : 
+        <select multiple>
+            <option value="1">Earth</option>
+            <option value="2">Mars</option>
+            <option value="3">Venus</option>
+        </select>
+       <br><br>
+        <input type="file" name="upload" accept="application/pdf">
+       <br><br>
+       <button type="button" >Regular Button</button>
+       <button type="submit" >Submit Button</button>
+       <button type="submit" >Reset Button</button>
+       <input type="image" name="imageButton" src="../images/heart.png" height="50px" width="50px">
+       <input type="hidden" name="cookie" value="100">
+    </form>
+</body>
+</html>

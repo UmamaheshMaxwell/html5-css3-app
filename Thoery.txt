@@ -66,3 +66,25 @@ Internal - by using "style element" in <head> section
 
 External - By Using <link> elements to link external CSS
 
+BLE - Block Level element
+-----------------------------
+
+- Ocuupies entire space of the parent 
+- always starts on new line and takes up full width available 
+
+e.g. H1- H6 , table, p, div, form, video, hr, header, footer
+
+IE - Inline Element 
+
+ - It doesn't start on a new line
+ - only takes up as much width as necessary 
+ - Can not contain a block-level element
+
+e.g. span, a, button, supscript, subscript, textarea, label, b, string, img
+
+CSS3
+-----
+1. Bring Superios styling to HTML
+2. Multiple Device Compatibility
+3. Follows Global WebStandrads
+4. Easy maintainance 

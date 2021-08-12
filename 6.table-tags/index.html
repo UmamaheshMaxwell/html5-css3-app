@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Table</title>
+    <style>
+        table, tr, th, td {
+            border: 1px solid black;
+            border-collapse: collapse;
+        }
+
+        th, td {
+            padding: 15px;
+        }
+
+        /* th {
+           text-align: left;
+        } */
+    </style>
+</head>
+<body>
+    <table>
+        <thead>
+            <tr>
+                <th>Id</th>
+                <th>Name</th>
+                <th>Email</th>
+                <th>City</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>1</td>
+                <td>Scott</td>
+                <td>Scott@ef.com</td>
+                <td>Boston</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>Adam</td>
+                <td>Adam@ef.com</td>
+                <td>Sydney</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>Tuan</td>
+                <td>Tuan@ef.com</td>
+                <td>Vietnam</td>
+            </tr>
+        </tbody>
+    </table>
+    <br>
+    <table>
+        <tr>
+            <th>Name</th>
+            <th colspan="2">Telephone</th>
+        </tr>
+        <tr>
+            <td>Bill Gates</td>
+            <td>123456789</td>
+            <td>987654321</td>
+        </tr>
+    </table>
+    <br>
+    <table>
+        <tr>
+            <th>Name</th>
+            <td>Elon Musk</td>
+        </tr>
+        <tr>
+            <th rowspan="2">Telephone</th>
+            <td>123456</td>
+        </tr>
+        <tr>
+            <td>654321</td>
+        </tr>
+    </table>
+</body>
+</html>
