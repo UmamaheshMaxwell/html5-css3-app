@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Child Selector</title>
+    <style>
+         /* > is mandatory to select immediate sibling */
+        div + p {
+            background-color: yellow;
+        }
+    </style>
+</head>
+<body>
+   <div>
+       <p>Paragraph1 in the div</p>
+       <p>Paragraph2 in the div</p>
+   </div>
+   <p>Paragraph3 not in the div</p>
+   <p>Paragraph4 not in the div</p>
+</body>
+</html>
+

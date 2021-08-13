@@ -88,3 +88,13 @@ CSS3
 2. Multiple Device Compatibility
 3. Follows Global WebStandrads
 4. Easy maintainance 
+
+
+Combinator Selectors
+--------------------
+Which explains the relationship between Selectors
+
+1. descendent selector (space)
+2. child selector (>)
+3. adjacent selector + 
+4. general sibling selctor (~)

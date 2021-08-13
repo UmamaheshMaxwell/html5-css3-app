@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Descendant Selector</title>
+    <style>
+        /* Space is mandatoory to select descendants */
+        div p {
+            background-color: yellow;
+        }
+    </style>
+</head>
+<body>
+   <div>
+       <p>Paragraph1 in the div</p>
+       <p>Paragraph2 in the div</p>
+       <section>
+        <p>Paragraph3 in the div</p>
+       </section>
+   </div>
+   <p>Paragraph4 not in the div</p>
+   <p>Paragraph5 not in the div</p>
+</body>
+</html>
